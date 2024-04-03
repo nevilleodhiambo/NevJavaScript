@@ -8,3 +8,7 @@ console.log(PaymentMode);
 
 PaymentMode = "Credit Card";
 console.log(PaymentMode);
+
+let myName = "Neville";
+console.log(myName);
+
