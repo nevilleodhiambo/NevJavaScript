@@ -30,3 +30,30 @@ function getUserRole(name, role){
 
 var neville = getUserRole("Neville", "testprep");
 console.log(neville);
+
+// var nev = function getUserRole(name, role){
+//     switch(role){
+//         case "admin":
+//             return `${name}, is an admin`;
+//             break;
+
+//             case "subadmin":
+//                 return `${name}, is a subadmin`;
+//                 break;
+
+//                 case "testprep":
+//                     return `${name}, is a testprep`;
+//                     break;
+
+//                     case "user":
+//                         return `${name}, is a testprep`;
+//                         break;
+
+//                         default:
+//                             return "test";
+//                             break;
+//     }
+// }
+
+// var nev = getUserRole("Neville", "subadmin");
+// console.log(nev("Edwin", "testprep"));
